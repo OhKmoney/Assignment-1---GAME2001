@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	OrderedArray<int> array(3);
+	OrderedArray<int> array(3, 1);
 
 	array.push(3);
 	array.push(53);
@@ -21,7 +21,7 @@ int main()
 
 	cout << "Ordered array contents: ";
 
-	for (int i = 0; i < array.GetSize(); i++)
+	for (int i = 0; i < array.getSize(); i++)
 	{
 		cout << array[i] << " ";
 	}
