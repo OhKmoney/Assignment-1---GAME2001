@@ -114,7 +114,11 @@ protected:
 		temp = nullptr;
 
 		m_maxSize += m_growSize;
+
+		//CHANGE 1, Simple change to make m_growSize increase exponentially with each call
 		m_growSize = m_growSize << 1;
+		//Can use print statement below to track m_growSize after each exponential change
+		//std::cout << "m_growSize after adjust: " << m_growSize << std::endl;
 		return true;
 	}
 
