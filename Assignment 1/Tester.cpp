@@ -1,3 +1,9 @@
+//Just a quick comment up here to prove this is me
+//Mikaiah Szucs
+//Student ID: 101348332
+//Assignment 1 for GAME2001
+
+
 #include <iostream>
 #include "UnorderedArray.h"
 #include "OrderedArray.h"
